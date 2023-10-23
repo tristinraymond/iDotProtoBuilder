@@ -279,12 +279,8 @@ def write_csv_with_replicates(data, volumes, replicates_per_compound, save_path,
         writer.writerows(csv_data)
 
 # Create the main window
-root = tk.Tk()
+root=ThemedTk(theme='adapta')
 root.title("iDot ProtoBuilder")
-
-#set theme
-root.tk.call("source", "azure.tcl")
-root.tk.call("set_theme", "dark")
 
 root.geometry("800x500")
 
