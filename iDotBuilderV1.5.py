@@ -4,7 +4,7 @@
 #randomization works perfectly fine 
 #V1.5 has import function for csv (compound_name, volume, replicate)
 #working on help update for instructions
-import streamlit as st
+
 import tkinter as tk
 from tkinter import simpledialog, filedialog, ttk
 from ttkthemes import ThemedTk
